@@ -1,0 +1,42 @@
+body {
+    background-color: #be4e64;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 50px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #36272c;
+    font-size: 2rem;
+}
+
+.hearts {
+    margin-top: 30px;
+}
+
+.heart {
+    display: inline-block;
+    font-size: 3rem;
+    margin: 0 10px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
